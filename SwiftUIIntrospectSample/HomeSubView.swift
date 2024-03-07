@@ -22,6 +22,7 @@ struct HomeSubView: View {
         }
         .navigationTitle("HomeSubView")
         .introspect(.tabView, on: .iOS(.v14...), scope: .ancestor) {
+            print("Activate")
             $0.tabBar.isHidden = true
         }
     }

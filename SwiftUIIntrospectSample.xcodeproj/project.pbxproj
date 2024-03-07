@@ -18,6 +18,7 @@
 		AD013A6C2B980CDA00FAA950 /* SwiftUIIntrospect in Frameworks */ = {isa = PBXBuildFile; productRef = AD013A6B2B980CDA00FAA950 /* SwiftUIIntrospect */; };
 		AD013A6E2B980CDA00FAA950 /* SwiftUIIntrospect-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = AD013A6D2B980CDA00FAA950 /* SwiftUIIntrospect-Dynamic */; };
 		AD013A702B980CDA00FAA950 /* SwiftUIIntrospect-Static in Frameworks */ = {isa = PBXBuildFile; productRef = AD013A6F2B980CDA00FAA950 /* SwiftUIIntrospect-Static */; };
+		AD013A722B993CF700FAA950 /* RootNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD013A712B993CF700FAA950 /* RootNavigator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		AD013A642B980B0700FAA950 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		AD013A662B980B0D00FAA950 /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
 		AD013A682B980C1200FAA950 /* HomeSubView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeSubView.swift; sourceTree = "<group>"; };
+		AD013A712B993CF700FAA950 /* RootNavigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootNavigator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 				AD013A642B980B0700FAA950 /* HomeView.swift */,
 				AD013A662B980B0D00FAA950 /* SettingView.swift */,
 				AD013A682B980C1200FAA950 /* HomeSubView.swift */,
+				AD013A712B993CF700FAA950 /* RootNavigator.swift */,
 			);
 			path = SwiftUIIntrospectSample;
 			sourceTree = "<group>";
@@ -166,6 +169,7 @@
 				AD013A692B980C1200FAA950 /* HomeSubView.swift in Sources */,
 				AD013A572B980AC500FAA950 /* ContentView.swift in Sources */,
 				AD013A672B980B0D00FAA950 /* SettingView.swift in Sources */,
+				AD013A722B993CF700FAA950 /* RootNavigator.swift in Sources */,
 				AD013A652B980B0700FAA950 /* HomeView.swift in Sources */,
 				AD013A552B980AC500FAA950 /* SwiftUIIntrospectSampleApp.swift in Sources */,
 				AD013A632B980AFE00FAA950 /* MainTabView.swift in Sources */,
